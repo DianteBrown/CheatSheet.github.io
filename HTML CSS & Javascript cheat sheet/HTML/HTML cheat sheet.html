@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML and CSS cheatsheet</title>
+
+    <!--Linking CSS stylesheet-->
+    <link rel="stylesheet" href="/Users/diantebrown/Coding Projects/CodeAcademy/HTML CSS & Javascript cheat sheet/CSS/CSS.css">
+
+  </head>
+    <body>
+      <nav>
+        <ul>
+          <li><a href="/Users/diantebrown/Coding Projects/CodeAcademy/HTML CSS & Javascript cheat sheet/HTML/CSS cheat sheet.html">CSS</a></li>
+          <li><a href="/Users/diantebrown/Coding Projects/CodeAcademy/HTML CSS & Javascript cheat sheet/HTML/HTML cheat sheet.html">HTML</a></li>
+        </ul>
+      </nav>
+    <h1>HTML and CSS cheatsheet</h1>
+    <div>
+      <h2>HTML</h2>
+ <!-- Links and Buttons -->
+        <h3>Elements</h3>
+
+          <h4>HTML</h4>
+            <p>HTML (HyperText Markup Language) is used to give content to a web page and
+            instructs web browsers on how to structure that content.</p>
+
+          <h4>Element Content</h4>
+            <p>The content of an HTML element is the information between the opening and closing tags of an element.</p>
+
+          <h4> List Item Element</h4>
+            <h5>&lt;li&gt;</h5>
+              <p>The &lt;li&gt; list item element create list items inside:</p>
+                <ul>
+                  <li>Ordered lists &lt;ol&gt;</li>
+                  <li>Unordered lists &lt;ul&gt;</li>
+                </ul>
+
+          <h4>Video Element</h4>
+            <h5>&lt;video&gt;</h5>
+              <p>The &lt;video&gt; element embeds a media player for video playback. The src attribute will contain the URL
+              to the video. Adding the controls attribute will display video controls in the media player.</p>
+              <p><bold>Note:</bold>The content inside the opening and closing tag is shown as a fallback in browsers
+              that don’t support the element.</p>
+
+          <h4>Emphasis Element</h4>
+            <h5>&lt;em&gt;</h5>
+              <p>The &lt;em&gt; element emphasizes text and browsers will usually italicize the emphasized text by default.</p>
+
+          <h4>Ordered List Element</h4>
+            <h5>&lt;ol&gt;</h5>
+              <p>The &lt;ol&gt; ordered list element creates a list of items in sequential order. Each list item appears
+              numbered by default.</p>
+
+          <h4>Div Element</h4>
+            <h5>&lt;div&gt;</h5>
+              <p>The &lt;div&gt; element is used as a container that divides an HTML document into sections and is short for
+              “division”. &lt;div&gt; elements can contain flow content such as headings, paragraphs, links, images, etc.</p>
+
+          <h4>HTML Structure</h4>
+            <p>HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings,
+            children, grandchildren, etc.</p>
+
+          <h4>Closing Tag</h4>
+            <p>An HTML closing tag is used to denote the end of an HTML element. The syntax for a closing tag is a left
+            angle bracket &lt; followed by a forward slash / then the element name and a right angle bracket to close &gt;.</p>
+
+          <h4>Attribute Name and Values</h4>
+            <p>HTML attributes consist of a name and a value using the following syntax: name="value" and can be added to the
+            opening tag of an HTML element to configure or change the behavior of the element.
+            </p>
+
+          <h4>&lt;br&gt; Line Break Element</h4>
+            <h5>&lt;br&gt;</h5>
+              <p>The &lt;br&gt; line break element will create a line break in text and is especially useful where a division of text is
+              required, like in a postal address. The line break element requires only an opening tag and must not have a closing
+              tag.</p>
+
+          <h4>Image Element</h4>
+            <h5>&lt;img&gt;</h5>
+              <p>HTML image &lt;img&gt; elements embed images in documents. The src attribute contains the image URL and is mandatory.
+              &lt;img&gt; is an empty element meaning it should not have a closing tag.</p>
+
+          <h4>Heading Elements</h4>
+            <h5>&lt;h1&gt;-&lt;h6&gt;</h5>
+              <p>HTML can use six different levels of heading elements. The heading elements are ordered from the highest level &lt;h1&gt;
+              to the lowest level &lt;h6&gt;.</p>
+
+          <h4><p> Paragraph Element</h4>
+            <p>The &lt;p&gt; paragraph element contains and displays a block of text.</p>
+
+          <h4>Unique ID Attributes</h4>
+            <p>In HTML, specific and unique id attributes can be assigned to different elements in order to differentiate between them.</p>
+            <p>When needed, the id value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions
+            on that element and that element only. Valid id attributes should begin with a letter and should only contain letters (a-Z),
+            digits (0-9), hyphens (-), underscores (_), and periods (.).</p>
+
+          <h4>HTML Attributes</h4>
+            <p>HTML attributes are values added to the opening tag of an element to configure the element or change the element’s default
+            behavior. In the provided example, we are giving the &lt;p&gt; (paragraph) element a unique identifier using the id attribute and
+            changing the color of the default text using the style attribute.</p>
+
+          <h4>Unordered List Element</h4>
+            <h5>&lt;ul&gt;</h5>
+              <p>The &lt;ul&gt; unordered list element is used to create a list of items in no particular order. Each individual list item will
+              have a bullet point by default.</p>
+
+          <h4><em>alt</em> Attribute</h4>
+            <p>An &lt;img&gt; element can have alternative text via the <em>alt</em> attribute. The alternative text will be displayed if an image fails
+            to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked from being
+            displayed, or if the image has not been received from the URL.</p>
+            <p>The text will be read aloud if screen reading software is used and helps support visually impaired users by providing a text descriptor
+            for the image content on a webpage.</p>
+
+          <h4>Body Element</h4>
+            <h5>&lt;body&gt;</h5>
+              <p>The &lt;body&gt; element represents the content of an HTML document. Content inside &lt;body&gt; tags are rendered on the web browsers.</p>
+              <p><b>Note:</b>There can be only one &lt;body&gt; element in a document.</p>
+
+          <h4>Span Element</h4>
+            <h5>&lt;span&gt;</h5>
+              <p>The &lt;span&gt; element is an inline container for text and can be used to group text for styling purposes. However, as &lt;span&gt; is a generic
+              container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic element is available.</p>
+
+          <h4>Strong Element</h4>
+            <h5>&lt;strong&gt;</h5>
+              <p>The &lt;strong&gt; element highlights important, serious, or urgent text and browsers will normally render this highlighted text in
+              bold by default.</p>
+
+          <h4>HTML Element</h4>
+            <p>An HTML element is a piece of content in an HTML document and uses the following syntax: opening tag + content + closing tag.
+            In the code provided:</p>
+              <ul>
+                <li>&lt;p&gt; is the opening tag.</li>
+                <li>Hello World! is the content.</li>
+                <li>&lt;/p&gt; is the closing tag.</li>
+              </ul>
+
+          <h4>HTML Tag</h4>
+            <p>The syntax for a single HTML tag is an opening angle bracket &lt; followed by the element name and a closing angle bracket &gt;.
+            Here is an example of an opening &lt;div&gt; tag.</p>
+
+    <!-- Structure -->
+
+        <h3>Structure</h3>
+
+          <h4>Anchor Element</h4>
+            <h5>&lt;a&gt;</h5>
+              <p>The &lt;a&gt; anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the
+              same server, a location on the same page, or any other URL via the hyperlink reference attribute, href. The href determines the location
+              the anchor element points to.</p>
+
+          <h4>Head Element</h4>
+            <h5>&lt;head&gt;</h5>
+              <p>The &lt;head&gt; element contains general information about an HTML page that isn’t displayed on the page itself. This information is called
+              metadata and includes things like the title of the HTML document and links to stylesheets.</p>
+
+          <h4>Target Attribute</h4>
+            <h5>&lt;target&gt;</h5>
+            <p>The target attribute on an &lt;a&gt; anchor element specifies where a hyperlink should be opened. A target value of "_blank" will tell the browser
+            to open the hyperlink in a new tab in modern browsers, or in a new window in older browsers or if the browser has had settings changed to open hyperlinks in a new window.</p>
+
+          <h4>Indentation</h4>
+            <p>HTML code should be formatted such that the indentation level of text increases once for each level of nesting.</p>
+            <p>It is a common convention to use two or four space per level of nesting.</p>
+
+          <h4>Link to a Different Part of the Page #</h4>
+            <p>The anchor element &lt;a&gt; can create hyperlinks to different parts of the same HTML document using the href attribute to point to the desired location
+            with # followed by the id of the element to link to.</p>
+
+          <h4>HTML Element</h4>
+            <h5>&lt;html&gt;</h5>
+              <p>The &lt;html&gt; element, the root of an HTML document, should be added after the !DOCTYPE declaration. All content/structure for an HTML document should
+              be contained between the opening and closing &lt;html&gt; tags.</p>
+
+          <h4>Comments</h4>
+            <p>In HTML, comments can be added between an opening &lt;!-- and closing --&gt;. Content inside of comments will not be rendered by browsers, and are
+            usually used to describe a part of code or provide other details.</p>
+
+            <p>Comments can span single or multiple lines.</p>
+
+          <h4>Whitespace</h4>
+            <p>Whitespace, such as line breaks, added to an HTML document between block-level elements will generally be ignored by the browser and are not added
+            to increase spacing on the rendered HTML page. Rather, whitespace is added for organization and easier reading of the HTML document itself.</p>
+
+          <h4>Title Element</h4>
+            <h5>&lt;title&gt;</h5>
+              <p>The &lt;title&gt; element contains a text that defines the title of an HTML document. The title is displayed in the browser’s title bar or tab in which
+              the HTML page is displayed. The &lt;title&gt; element can only be contained inside a document’s &lt;head&gt; element.</p>
+
+          <h4>File Path</h4>
+            <p>URL paths in HTML can be absolute paths, like a full URL, for example: https://developer.mozilla.org/en-US/docs/Learn or a relative file path that
+            links to a local file in the same folder or on the same server, for example: ./style.css. Relative file paths begin with ./ followed by a path to the
+            local file. ./ tells the browser to look for the file path from the current folder.</p>
+
+          <h4>Document Type Declaration</h4>
+            <h5>&lt;!DOCTYPE html&gt;</h5>
+              <p>The document type declaration &lt;!DOCTYPE html&gt; is required as the first line of an HTML document. The doctype declaration is an instruction to the
+              browser about what type of document to expect and which version of HTML is being used, in this case it’s HTML5.</p>
+
+    <!-- Tables -->
+        <h3>Tables</h3>
+
+          <h4>Table Row Element</h4>
+            <h5>&lt;tr&gt;</h5>
+              <p>The table row element, &lt;tr&gt;, is used to add rows to a table before adding table data and table headings.</p>
+
+          <h4>Table Data Element</h4>
+            <h5>&lt;td&gt;</h5>
+              <p>The table data element, &lt;td&gt;, can be nested inside a table row element, &lt;tr&gt;, to add a cell of data to a table.</p>
+
+          <h4>Table Head Element</h4>
+            <h5>&lt;thead&gt;</h5>
+              <p>The table head element, &lt;thead&gt;, defines the headings of table columns encapsulated in table rows.
+              </p>
+
+          <h4><em>rowspan</em> Attribute</h4>
+            <p>Similar to <em>colspan</em>, the <em>rowspan</em> attribute on a table header or table data element indicates how many rows that
+            particular cell should span within the table. The <em>rowspan</em> value is set to 1 by default and will take any positive
+            integer up to 65534.</p>
+
+          <h4>Table Body Element</h4>
+            <h5>&lt;tbody&gt;</h5>
+              <p>The table body element, &lt;tbody&gt;, is a semantic element that will contain all table data other than table heading and table footer
+              content. If used, &lt;tbody&gt; will contain all table row &lt;tr&gt; elements, and indicates that &lt;tr&gt; elements make up the body of the table.
+              &lt;table&gt; cannot have both &lt;tbody&gt; and &lt;tr&gt; as direct children.</p>
+
+          <h4>Table Heading Element</h4>
+            <h5>&lt;th&gt;</h5>
+              <p>The table heading element, &lt;th&gt;, is used to add titles to rows and columns of a table and must be enclosed in a table row element, &lt;tr&gt;.</p>
+
+          <h4><em>colspan</em> Attribute</h4>
+            <p>The <em>colspan</em> attribute on a table header &lt;th&gt; or table data &lt;td&gt; element indicates how many columns that particular cell should span
+            within the table. The colspan value is set to 1 by default and will take any positive integer between 1 and 1000.</p>
+
+          <h4>Table Footer Element</h4>
+            <h5>&lt;tfoot&gt;</h5>
+              <p>The table footer element, &lt;tfoot&gt;, uses table rows to give footer content or to summarize content at the end of a table.</p>
+
+          <h4>Table Element</h4>
+            <h5>&lt;table&gt;</h5>
+              <p>In HTML, the &lt;table&gt; element has content that is used to represent a two-dimensional table made of rows and columns.</p>
+
+
+
+    <!-- Semantic HTML -->
+        <h3>Semantic HTML</h3>
+
+          <h4>Semantic HTML</h4>
+            <p>Semantic HTML introduces meaning to the code we write. Before Semantic HTML the elements didn’t have any meaning as to what
+            it does or what content goes in it. An element such as &lt;div&gt; was used as a general-purpose element to create things from headers
+            to footers to articles. With Semantic HTML we were introduced to elements that tell developers and browsers exactly what it
+            does and what content should go in it.</p>
+
+          <h4>Element Placement</h4>
+            <p>Semantic HTML introduces elements that can tell developers exactly what the element does or where it’s placed based on the name
+            of that element. Some of these elements are &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, and &lt;footer&gt;. &lt;header&gt; describes the content at the top of
+            the page &lt;body&gt;. It may include a logo, navigational links or a search bar. &lt;nav&gt; encapsulates the page’s navigational links.
+            It is often placed inside the &lt;header&gt; or &lt;footer&gt;. &lt;main&gt; encapsulates the main content of a page between the header/navigation
+            and the footer areas. &lt;footer&gt; includes the page’s footer content at the bottom of the &lt;body&gt;.</p>
+
+          <h4>Embedding media</h4>
+            <p>Semantic HTML introduces us to &lt;video&gt;, &lt;audio&gt; and &lt;embed&gt;. &lt;video&gt; allows us to add videos to our website. &lt;audio&gt; allows us
+            to implement audio into our website. &lt;embed&gt; can be used to implement any type of media. These elements are universal in that
+            they all use the src attribute to link the source of the content. &lt;video&gt; and &lt;audio&gt; requires a closing tag while &lt;embed&gt; is
+            a self-closing tag.</p>
+
+          <h4>&lt;figure&gt; and &lt;figcaption&gt;</h4>
+            <p>The &lt;figure&gt; element is used to encapsulate media such as an image, diagram. or code snippet. The &lt;figcaption&gt; element is used to
+            describe the media encapsulated within the &lt;figure&gt; element. Developers will normally use &lt;figcaption&gt; within the &lt;figure&gt; element to
+            group the media and description. This way, if a developer decides to change the position of the media, the description will follow
+            along with it.</p>
+
+          <h4>&lt;section&gt; and &lt;article&gt; </h4>
+            <p>&lt;section&gt; defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
+            &lt;article&gt; holds content that makes sense on its own such as articles, blogs, and comments. Generally developers will use
+            &lt;section&gt; to define a theme for the webpage and use &lt;article&gt; to write independent content for that theme. This does not mean
+            that &lt;article&gt; has to be used with &lt;section&gt;.</p>
+
+          <h4>&lt;aside&gt; Aside Element</h4>
+            <p>The &lt;aside&gt; element is used to mark additional information that can enhance another element but isn’t required in order to understand
+            the main content. Usually, this information would be in a sidebar or a location where it doesn’t obstruct the main piece of content.
+            An example of this would be an article that discusses how to take care of a dog and next to the article an ad would appear advertising
+            a dog grooming product.</p>
+
+    </div>
+
+  </body>
